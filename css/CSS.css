@@ -1,2 +1,45 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
 p {font-size: 16px;}
 label {font-size: 18px;}
+p span {
+    background-color: green;
+}
+p::first-letter{
+    color: red;
+    font-size: 24px;
+}
+.zag{
+    color: orange;
+}
+li.veget{
+    color: red;
+}
+.head{
+    font-weight: 700;
+}
+table{
+    width: 500px;
+    border-collapse: separate;
+    border: 1px solid black;
+}
+td {
+    padding: 5px;
+    border: 1px solid black;
+   }
+.bold{
+    font-weight: 700;
+}
+.red{
+    color: orange;
+}
+.green{
+    background-color: green;
+}
+.bold,.green{
+    text-align: center;
+}
+label:not([p]){
+    color: red;
+}
