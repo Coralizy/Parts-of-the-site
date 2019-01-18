@@ -19,7 +19,7 @@ li.veget{
 .head{
     font-weight: 700;
 }
-table{
+table.less2{
     width: 500px;
     border-collapse: separate;
     border: 1px solid black;
@@ -42,4 +42,39 @@ td {
 }
 label:not([p]){
     color: red;
+}
+.blu,.orange,.gray{
+    font-size: 18px;
+    font-weight: 600;
+}
+.orange a{
+    color: orange;
+}
+.gray a{
+    color: #666;
+}
+table.less3 {
+    width: 90%;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+}
+.parent > .child:nth-child(2n+3){
+    background-color: gray;
+}
+.parent:nth-child(even){
+    background-color: aquamarine;
+}
+.gri{
+    background-color: green;
+}
+.rd{
+    background-color: red;
+}
+.sky{
+    background-color: blue;
+}
+input:checked+.gri {
+    display: none;
 }
