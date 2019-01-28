@@ -1,6 +1,4 @@
-.pricerow{
-   
-}
+
 .price_l,.price,.price_r{
     display: inline-block;
      margin-top: 5%;
@@ -213,4 +211,59 @@ button.pricebut_r {
     border: 1px solid #3371a6;
     border-radius: 5px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+}
+/*Testimonials*/
+
+.testimonial {
+    background-image: url(https://i.ibb.co/q793k03/task2-back.jpg);
+    background-size: cover;
+    margin: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+h2{
+    color: #3371a6;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+span.firstword{
+    color: #ee8129;
+}
+.testi_left,.testi_right{
+    display: inline-block;
+    margin-top: 50px;
+}
+.testi_left{
+    padding-left: 8%;
+}
+.testi_right{
+    padding-left: 40px;
+}
+img{
+    position: absolute;
+}
+.testi_item{
+    background-color: white;
+    width: 360px;
+    position: relative;
+    margin-left: 130px;
+    font-family: Roboto;
+    font-size: 14px;
+    padding: 15px;
+}
+.name{
+    color: #3371a6;
+    padding-bottom: 15px;
+    font-style: italic;
+    border-bottom: 1px dotted #3371a6;
+    margin-top: 0;
+}
+span.status{
+    float: right;
+}
+body {
+    margin: 0;
 }
